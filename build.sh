@@ -132,4 +132,18 @@ if echo "$0" | grep -E "build(.sh)?$" >/dev/null; then
     log_error "FAIL: etcd_build (GOARCH=${GOARCH})"
     exit 2
   fi
+  # # ???
+  # if tools_build; then
+  #   log_success "SUCCESS: tools_build (GOARCH=${GOARCH})"
+  # else
+  #   log_error "FAIL: tools_build (GOARCH=${GOARCH})"
+  #   exit 2
+  # fi
+  # # ???
+  # if tests_build; then
+  #   log_success "SUCCESS: tests_build (GOARCH=${GOARCH})"
+  # else
+  #   log_error "FAIL: tests_build (GOARCH=${GOARCH})"
+  #   exit 2
+  # fi
 fi
